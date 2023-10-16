@@ -65,3 +65,4 @@ Other considerations.
 2. Run Gateway Approval Tool on Management Server at the end of the chain. 
 
 3. Install Gateway at the other end of the chain and specify the gateway in the middle as the management server
+4. [Documentation](https://techcommunity.microsoft.com/t5/system-center-blog/how-to-link-multiple-gateway-servers-together/ba-p/341202)
