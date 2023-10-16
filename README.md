@@ -46,5 +46,5 @@ Also ensure Domain Computers can also enrol (security tab)
 
 Other considerations.
 1. Step 12 certificate request
-[ ] Full DN and use ADSIEdit to pull back distinguished name.
-[ ] Certificate Subject Name must match DN
+[ ]Full DN and use ADSIEdit to pull back distinguished name.
+[ ]Certificate Subject Name must match DN
