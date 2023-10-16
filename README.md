@@ -49,10 +49,10 @@ Other considerations.
 - Full DN and use ADSIEdit to pull back distinguished name.
 - Certificate Subject Name -> Common Name is the FQDN
 ```
-  The specified certificate could not be loaded because the Subject name on the certificate does not match the local computer name
+  The specified certificate could not be loaded because the Subject name on the certificate does not match the local computer name. Below is an example of an error.
  Certificate Subject Name : Windows Virtual Machine
  Computer Name            : cust1ms1.langkah.net
-  ```
+```
 
 2. Events:
 - 20052 -> Certificate Error
