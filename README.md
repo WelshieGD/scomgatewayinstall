@@ -58,3 +58,10 @@ Other considerations.
 - 20052 -> Certificate Error
 - 20053 -> Certificate Loaded Succesfully
 
+### Daisy Chain Gateways
+[Documentation](https://techcommunity.microsoft.com/t5/system-center-blog/how-to-link-multiple-gateway-servers-together/ba-p/341202)
+1. The Health Service can only load and use a single certificate. Therefore, the same certificate is used by the parent and child of the gateway in the chain.
+
+2. Run Gateway Approval Tool on Management Server at the end of the chain. 
+
+3. Install Gateway at the other end of the chain and specify the gateway in the middle as the management server
