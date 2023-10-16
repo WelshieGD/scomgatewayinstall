@@ -47,4 +47,14 @@ Also ensure Domain Computers can also enrol (security tab)
 Other considerations.
 1. Step 12 certificate request
 - Full DN and use ADSIEdit to pull back distinguished name.
-- Certificate Subject Name must match DN
+- Certificate Subject Name -> Common Name is the FQDN
+```
+  The specified certificate could not be loaded because the Subject name on the certificate does not match the local computer name
+ Certificate Subject Name : Windows Virtual Machine
+ Computer Name            : cust1ms1.langkah.net
+  ```
+
+2. Events:
+- 20052 -> Certificate Error
+- 20053 -> Certificate Loaded Succesfully
+
