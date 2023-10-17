@@ -37,9 +37,7 @@ ROOT_MANAGEMENT_SERVER_PORT=5723
 
 ### Certificates
 #### Active Directory Enrollment
-- [Autoenrollment](https://docs.cyberark.com/Idaptive/Latest/en/Content/CoreServices/Connector/UserComputerCerts.htm?TocPath=Administrator%7CConfigure%20MFA%7CManage%20AD%20certificates%20in%20devices%7C_____1#:~:text=To%20enable%20the%20Certificate%20enrollment%20policy%20for%20user%20certificates%20expand,Click%20OK)
-
-  - Also ensure Domain Computers can also enrol (security tab)
+- [Auto enrolment](https://github.com/WelshieGD/scomgatewayinstall/blob/main/certautoenrol/certs.md)
 
 #### Off Domain
 - [Certreq](https://github.com/WelshieGD/scomgatewayinstall/tree/main/certreq/certreq.md)
