@@ -43,6 +43,7 @@ ROOT_MANAGEMENT_SERVER_PORT=5723
 
 - [Certreq](https://github.com/WelshieGD/scomgatewayinstall/tree/main/certreq/certreq.md)
 
+- [Audit Collection Services](https://github.com/WelshieGD/scomgatewayinstall/blob/main/acs/certificatemapping.md)
 
 #### SCOM Certificate Template
 [Blake Drumms Walk through](https://blakedrumm.com/blog/create-operations-manager-certificate-template/)_
