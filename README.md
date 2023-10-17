@@ -41,28 +41,17 @@ ROOT_MANAGEMENT_SERVER_PORT=5723
 
   - Also ensure Domain Computers can also enrol (security tab)
 
+#### Off Domain
 - [Certreq](https://github.com/WelshieGD/scomgatewayinstall/tree/main/certreq/certreq.md)
 
+#### Audit Collection Services - Certificate Mapping
 - [Audit Collection Services](https://github.com/WelshieGD/scomgatewayinstall/blob/main/acs/certificatemapping.md)
 
-#### SCOM Certificate Template
-[Blake Drumms Walk through](https://blakedrumm.com/blog/create-operations-manager-certificate-template/)_
-
-Other considerations.
-1. Step 12 certificate request
-- Full DN and use ADSIEdit to pull back distinguished name.
-- Certificate Subject Name -> Common Name is the FQDN
-```
-  The specified certificate could not be loaded because the Subject name on the certificate does not match the local computer name. Below is an example of an error.
- Certificate Subject Name : Windows Virtual Machine
- Computer Name            : cust1ms1.langkah.net
-```
-
-2. Events:
+## Events:
 - 20052 -> Certificate Error
 - 20053 -> Certificate Loaded Succesfully
 
-### Daisy Chain Gateways
+## Daisy Chain Gateways
 [Documentation](https://techcommunity.microsoft.com/t5/system-center-blog/how-to-link-multiple-gateway-servers-together/ba-p/341202)
 1. The Health Service can only load and use a single certificate. Therefore, the same certificate is used by the parent and child of the gateway in the chain.
 
