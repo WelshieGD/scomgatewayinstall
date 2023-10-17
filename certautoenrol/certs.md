@@ -1,9 +1,10 @@
 # Auto enrolment
+How to enable
 - [Autoenrollment](https://docs.cyberark.com/Idaptive/Latest/en/Content/CoreServices/Connector/UserComputerCerts.htm?TocPath=Administrator%7CConfigure%20MFA%7CManage%20AD%20certificates%20in%20devices%7C_____1#:~:text=To%20enable%20the%20Certificate%20enrollment%20policy%20for%20user%20certificates%20expand,Click%20OK)
 
   - Also ensure Domain Computers can also enrol (security tab)
 
-#SCOM Certificate Template
+# SCOM Certificate Template
 [Blake Drumms Walk through](https://blakedrumm.com/blog/create-operations-manager-certificate-template/)_
 
 Other considerations.
