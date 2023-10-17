@@ -1,6 +1,7 @@
 # SCOM Gateway Install
 
-[Documentation](https://learn.microsoft.com/en-us/system-center/scom/deploy-install-gateway-server?view=sc-om-2022&tabs=InstallGatewayServer)
+- [Gateway Install Documentation](https://learn.microsoft.com/en-us/system-center/scom/deploy-install-gateway-server?view=sc-om-2022&tabs=InstallGatewayServer)
+- [Authentication and Data encryption](https://learn.microsoft.com/en-us/system-center/scom/plan-security-authentication-data-encryption?view=sc-om-2022)
 
 ## Summary Steps
 ### Same domain or kerberos realm as management server
