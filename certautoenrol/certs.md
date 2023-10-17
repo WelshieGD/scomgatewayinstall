@@ -5,7 +5,7 @@ How to enable
   - Also ensure Domain Computers can also enrol (security tab)
 
 # SCOM Certificate Template
-[Blake Drumms Walk through](https://blakedrumm.com/blog/create-operations-manager-certificate-template/)_
+[Blake Drumms Walk through](https://blakedrumm.com/blog/create-operations-manager-certificate-template/)
 
 Other considerations.
 1. Step 12 certificate request
